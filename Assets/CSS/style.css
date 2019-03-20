@@ -216,3 +216,51 @@ body {
     border: 0 none;
   }
   
+  @media only screen and (max-width: 980px) { 
+   .container { 
+      padding: 0 20px; 
+      max-width: 780px;
+      margin: auto; 
+   }
+
+   #main-container { 
+      padding-top: 130px; 
+   }
+
+   .work { 
+      width: 100%; 
+      margin-left: 60px;
+   }
+
+   .auth-image { 
+     width: 100%;
+     margin-bottom: 20px;
+   }
+
+  }
+
+  @media only screen and (max-width: 768) { 
+    .container { 
+      margin-left: 10px;
+    }
+    .main-section { 
+      max-width: 100%; 
+    }
+
+    #main-container {
+      overflow: auto; 
+    }
+
+    .work { 
+      width: 47%; 
+      margin-bottom: 10px;
+    }
+
+    .work:nth-child(even) { 
+      margin-right: 0;
+    }
+
+    .auth-image { 
+      width: 50%;
+    }
+  }
